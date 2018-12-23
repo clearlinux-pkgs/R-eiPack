@@ -4,7 +4,7 @@
 #
 Name     : R-eiPack
 Version  : 0.1.8
-Release  : 4
+Release  : 5
 URL      : https://cran.r-project.org/src/contrib/eiPack_0.1-8.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/eiPack_0.1-8.tar.gz
 Summary  : Ecological Inference and Higher-Dimension Data Management
