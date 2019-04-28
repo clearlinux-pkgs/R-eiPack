@@ -4,7 +4,7 @@
 #
 Name     : R-eiPack
 Version  : 0.1.9
-Release  : 15
+Release  : 16
 URL      : https://cran.r-project.org/src/contrib/eiPack_0.1-9.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/eiPack_0.1-9.tar.gz
 Summary  : Ecological Inference and Higher-Dimension Data Management
@@ -36,10 +36,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1556472541
+export SOURCE_DATE_EPOCH=1556473112
 
 %install
-export SOURCE_DATE_EPOCH=1556472541
+export SOURCE_DATE_EPOCH=1556473112
 rm -rf %{buildroot}
 export LANG=C
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
