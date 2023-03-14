@@ -4,7 +4,7 @@
 #
 Name     : R-eiPack
 Version  : 0.2.2
-Release  : 45
+Release  : 46
 URL      : https://cran.r-project.org/src/contrib/eiPack_0.2-2.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/eiPack_0.2-2.tar.gz
 Summary  : Ecological Inference and Higher-Dimension Data Management
@@ -17,9 +17,6 @@ Requires: R-msm
 BuildRequires : R-coda
 BuildRequires : R-msm
 BuildRequires : buildreq-R
-# Suppress stripping binaries
-%define __strip /bin/true
-%define debug_package %{nil}
 
 %description
 tables using the extreme case analysis, ecological regression,
@@ -52,10 +49,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1676923879
+export SOURCE_DATE_EPOCH=1678817190
 
 %install
-export SOURCE_DATE_EPOCH=1676923879
+export SOURCE_DATE_EPOCH=1678817190
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/R-eiPack
 cp %{_builddir}/eiPack/COPYING %{buildroot}/usr/share/package-licenses/R-eiPack/5779f8f325460008fc233b70db6e1a774fc83643 || :
